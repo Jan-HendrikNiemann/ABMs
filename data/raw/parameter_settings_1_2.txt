@@ -1,0 +1,29 @@
+- - - - Parameter settings - - - -
+
+
+Number of types: 3
+Gamma:
+[[0. 2. 1.]
+ [1. 0. 2.]
+ [2. 1. 0.]]
+Gamma_prime:
+[[0.   0.01 0.01]
+ [0.01 0.   0.01]
+ [0.01 0.01 0.  ]]
+
+Time step: 0.01
+Maximum simulation time: 0.01
+List of all agent numbers:
+[10, 100, 1000]
+List of all sample numbers:
+[10, 100, 1000]
+
+
+- - - - Current settings - - - -
+
+
+Number of agents: 100
+Number of samples: 1000
+Number of trainingpoints: 515
+
+Elapsed time: 27.33 seconds

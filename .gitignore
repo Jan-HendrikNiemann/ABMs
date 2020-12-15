@@ -1,3 +1,4 @@
 
 .DS_Store
 *.pyc
+data/raw/out_2_2.npz

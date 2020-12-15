@@ -16,30 +16,7 @@ from joblib import Parallel, delayed
 import multiprocessing
 
 from VoterModel import markov_jump_process
-
-
-def random_init(N, k, s=1):
-    """
-    Multinomial distributed vector of k integer between [0, N] summing up to N
-
-    Parameters
-    ----------
-    N : int
-        Upper bound of the drawing set [0, N].
-    k : int
-        Sample size.
-    s : float, optional
-        Controls smoothness of distributions. Larger values of s cause
-        approach Poisson with mean N/k and smaller values lead to greater
-        variance. The default is 1 and corresponds to a uniform distribution.
-
-    Returns
-    -------
-    ndarray
-        Vector of length k with multinomial disrtibuted integers between [0, N]
-
-    """
-    return np.random.multinomial(N, s * np.random.dirichlet(np.ones(k)))
+from aux.auxiliary import random_init
 
 
 def __jumpprocess(x_init, num_samples, gamma, gamma_prime, t_step, T_max):

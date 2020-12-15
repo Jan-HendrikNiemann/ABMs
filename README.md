@@ -4,7 +4,7 @@ This repository contains python codes for the articel "Data-driven model reducti
 
 https://arxiv.org/abs/2012.07718
 
-## How to use?
+## Agent-based models
 
 There are three models predefined:
 
@@ -12,11 +12,12 @@ There are three models predefined:
 2. An extened voter model defined on arbitrary networks, `ExtendedVoterModel.py`
 3. A spatial predator-prey model, `PredatorPreyModel.py`
 
-The use is as follows:
+## How to use?
 
 1. Create measurements with `demo_data_generation.py`. The script illustrates the procedure using the agent-based model in `VoterModel.py`. There are some pre-generated measurements in the directory `data/raw`.
 2. Process the data to obtain *point-wise* estimates of drift and diffusion. Use gEDMD to learn a global description. The procedure is demonstrated in `demo_post_processing.py`. There are some post-processed measurements in the directory `data/processed`.
-3. The reduced stochastic differential equation can be simulated. This is demonstrated in `demo_reduced_SDE.py`.
+3. The reduced stochastic differential equation can now be simulated. This is demonstrated in `demo_reduced_SDE.py`.
+4. The evaluation is demonstrated in `demo_evaluation.py`.
 
 ## Additional Requirements
 

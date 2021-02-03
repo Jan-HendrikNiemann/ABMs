@@ -16,7 +16,7 @@ from joblib import Parallel, delayed
 import multiprocessing
 
 from VoterModel import markov_jump_process
-from aux.auxiliary import random_init
+from auxiliary.auxiliary import random_init
 
 
 def __jumpprocess(x_init, num_samples, gamma, gamma_prime, t_step, T_max):

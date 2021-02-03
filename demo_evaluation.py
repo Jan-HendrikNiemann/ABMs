@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 
 import d3s.observables as observables
-from aux.auxiliary import RMSE, random_init_2
+from auxiliary.auxiliary import RMSE, random_init_2
 
 
 def drift(C, num_types, gamma, gamma_prime):

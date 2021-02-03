@@ -14,8 +14,8 @@ import numpy as np
 import os
 
 import d3s.observables as observables
-import aux.algorithms as algorithms
-from aux.kramers_moyal import kramersmoyal
+import auxiliary.algorithms as algorithms
+from auxiliary.kramers_moyal import kramersmoyal
 
 
 # Maximum degree of monomials

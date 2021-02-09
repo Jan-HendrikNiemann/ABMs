@@ -1,6 +1,6 @@
 # Data-driven model reduction of agent-based systems using the Koopman generator
 
-This repository contains python codes for the articel "Data-driven model reduction of agent-based systems using the Koopman generator" by Jan-Hendrik Niemann, Stefan Klus and Christof Schütte.
+This repository contains python codes for the article "Data-driven model reduction of agent-based systems using the Koopman generator" by Jan-Hendrik Niemann, Stefan Klus and Christof Schütte.
 
 https://arxiv.org/abs/2012.07718
 
@@ -9,7 +9,7 @@ https://arxiv.org/abs/2012.07718
 There are three models predefined:
 
 1. A voter model defined as a Markov jump process, `VoterModel.py`
-2. An extened voter model defined on arbitrary networks, `ExtendedVoterModel.py`
+2. An extended voter model defined on arbitrary networks, `ExtendedVoterModel.py`
 3. A spatial predator-prey model, `PredatorPreyModel.py`
 
 ## How to use?

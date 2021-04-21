@@ -15,7 +15,7 @@ There are three models predefined:
 ## How to use?
 
 1. Create measurements with `demo_data_generation.py`. The script illustrates the procedure using the agent-based model in `VoterModel.py`. There are some pre-generated measurements in the directory `data/raw`.
-2. Process the data to obtain *point-wise* estimates of drift and diffusion. Use gEDMD to learn a global description. The procedure is demonstrated in `demo_post_processing.py`. There are some post-processed measurements in the directory `data/processed`.
+2. Process the data to obtain *point-wise* estimates of drift and diffusion. Use gEDMD to learn a global description. The procedure is demonstrated in `demo_post_processing.py`. There are some post-processed measurements in the directory `data/processed`. Further data-sets are available at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4522119.svg)](https://doi.org/10.5281/zenodo.4522119)
 3. The reduced stochastic differential equation can now be simulated. This is demonstrated in `demo_reduced_SDE.py`.
 4. The evaluation is demonstrated in `demo_evaluation.py`.
 

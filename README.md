@@ -2,7 +2,7 @@
 
 This repository contains python codes for the article "Data-driven model reduction of agent-based systems using the Koopman generator" by Jan-Hendrik Niemann, Stefan Klus and Christof Schütte.
 
-https://arxiv.org/abs/2012.07718
+Niemann J-H, Klus S, Schütte C (2021) Data-driven model reduction of agent-based systems using the Koopman generator. PLoS ONE 16(5): e0250970. https://doi.org/10.1371/journal.pone.0250970
 
 ## Agent-based models
 
